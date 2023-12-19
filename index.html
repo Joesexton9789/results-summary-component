@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="result-card">
+        <h1>Your Result</h1>
+        <div class="result">
+          <span id="result-number" class="result-number">76</span>
+          <p>of 100</p>
+        </div>
+        <h3 id="result-outcome" class="result-outcome">Great</h3>
+        <p class="text">
+          You scored higher than <span id="result-percent">65</span>% of the
+          people who have taken these tests.
+        </p>
+      </section>
+      <section class="result-summary">
+        <h2>Summary</h2>
+        <ul></ul>
+        <a id="continue" href="#">Continue</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
